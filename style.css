@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+
+
+.header {
+    background-color: lightgray;
+    text-align: center;
+    padding: 5px;
+}
+.nav {
+    background-color: #ebeced;
+    padding: 10px;
+    text-align: center;
+    list-style-position: inside;
+}
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+.content1 {
+    background-color: #666;
+    padding: 20px;
+    border: 20px solid #333;
+    overflow: hidden;
+    float: left;
+    width: 65%;
+    height: 550px;
+    margin-bottom: 20px;
+}
+.article {
+    background-color: #ccc;
+    color: black;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    border: 5px solid rgb(190, 207, 93);
+    height: 280px;
+}
+.article h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.article p{
+    font-size: 18px;
+}
+
+.images {
+    overflow: hidden;
+}
+.image-box {
+    background-color: #ccc;
+    color: black;
+    width: 32%;
+    height: 170px;
+    float: left;
+    margin-right: 2%;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid rgb(190, 207, 93);
+    line-height: 120px;
+    font-size: 25px;
+}
+/*remove the right margin of last one*/
+.image-box:last-child {
+    margin-right: 0;
+}
+
+
+.content2 {
+    background-color: #666;
+    padding: 20px;
+    border: 20px solid #333;
+    overflow: hidden;
+    color: white;
+    float:right;
+    width:35%;
+    height : 550px;
+    margin-bottom: 20px;
+    
+}
+.sidebar h2 {
+    background-color: #ccc;
+    color: black;
+    padding: 20px;
+    margin: 0px;
+    border: 5px solid rgb(190, 207, 93);
+    text-align: center;
+    font-size: 30px;
+}
+.sidebar ul{
+    background-color: #ccc;
+    color: black;
+    padding: 10px 40px;
+    border: 5px solid rgb(190, 207, 93);
+    height: 365px;
+    font-size: 25px;
+}
+
+
+.main-footer {
+    background-color: lightgray;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    height:120px;
+    clear:both;
+    line-height: 120px;
+}
